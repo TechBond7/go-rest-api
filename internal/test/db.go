@@ -1,14 +1,15 @@
 package test
 
 import (
-	dbx "github.com/go-ozzo/ozzo-dbx"
-	_ "github.com/lib/pq" // initialize posgresql for test
-	"github.com/qiangxue/go-rest-api/internal/config"
-	"github.com/qiangxue/go-rest-api/pkg/dbcontext"
-	"github.com/qiangxue/go-rest-api/pkg/log"
 	"path"
 	"runtime"
 	"testing"
+
+	"github.com/TechBond7/go-rest-api/internal/config"
+	"github.com/TechBond7/go-rest-api/pkg/dbcontext"
+	"github.com/TechBond7/go-rest-api/pkg/log"
+	dbx "github.com/go-ozzo/ozzo-dbx"
+	_ "github.com/lib/pq" // initialize posgresql for test
 )
 
 var db *dbcontext.DB

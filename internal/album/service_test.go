@@ -4,10 +4,11 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/pkg/log"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/TechBond7/go-rest-api/internal/entity"
+	"github.com/TechBond7/go-rest-api/pkg/log"
+	"github.com/stretchr/testify/assert"
 )
 
 var errCRUD = errors.New("error crud")

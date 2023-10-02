@@ -2,10 +2,11 @@ package album
 
 import (
 	"context"
-	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/pkg/log"
 	"time"
+
+	"github.com/TechBond7/go-rest-api/internal/entity"
+	"github.com/TechBond7/go-rest-api/pkg/log"
+	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 
 // Service encapsulates usecase logic for albums.

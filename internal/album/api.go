@@ -1,11 +1,11 @@
 package album
 
 import (
-	"github.com/go-ozzo/ozzo-routing/v2"
-	"github.com/qiangxue/go-rest-api/internal/errors"
-	"github.com/qiangxue/go-rest-api/pkg/log"
-	"github.com/qiangxue/go-rest-api/pkg/pagination"
 	"net/http"
+
+	"github.com/TechBond7/go-rest-api/internal/errors"
+	"github.com/TechBond7/go-rest-api/pkg/log"
+	"github.com/TechBond7/go-rest-api/pkg/pagination"
 )
 
 // RegisterHandlers sets up the routing of the HTTP handlers.
